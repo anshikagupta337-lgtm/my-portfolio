@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anshika Gupta | Developer Portfolio</title>
+    <meta name="description"
+        content="Anshika Gupta, B.Tech CSE student and aspiring software developer. React, Java, Spring Boot, and AI-powered apps.">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="bg"></canvas>
+
+    <body class="night">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-btn" class="theme-btn">🌸 Day</button>
+        </nav>
+
+        <section id="home">
+            <h1>Hi, I am Anshika ✨</h1>
+            <p class="role">I build <span id="typed"></span><span class="caret"></span></p>
+            <p class="intro">B.Tech CSE student at PSIT Kanpur, looking for a Software Development internship. I like
+                building full-stack apps and AI-powered features.</p>
+            <a href="#projects" class="btn">See my work</a>
+        </section>
+        <section id="about">
+            <h2>About me 🌷</h2>
+            <div class="about-box">
+                <img src="photo.jpg" alt="Anshika Gupta" class="avatar" tabindex="0">
+                <p>
+                    Hi! I am Anshika, a B.Tech CSE student at PSIT Kanpur. I enjoy building things people can actually
+                    use,
+                    from real-time chat apps to AI-powered features. I work mostly with React and Java, and I am
+                    learning
+                    more about backend and security every day.
+                </p>
+                <p>
+                    I have solved 155+ LeetCode problems and love working in a team. Right now I am looking for a
+                    Software
+                    Development internship where I can learn a lot and build real products.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Work</h2>
+            <a href="Anshika_Gupta_Resume.pdf" class="btn btn-outline" download>Download Resume 📄</a>
+            <p class="hint">Hover on a card to zoom in ✨</p>
+
+            <div class="slider">
+                <div class="track">
+
+                    <article class="work">
+                        <div class="preview live" aria-hidden="true">
+                            <div class="feed">
+                                <div class="b">hey! 👋</div>
+                                <div class="b me">is the app live?</div>
+                                <div class="b">yes, real-time ✨</div>
+                                <div class="b me">sending a file 📎</div>
+                                <div class="b">typing... 💬</div>
+                            </div>
+                        </div>
+                        <div class="work-body">
+                            <h3>EchoRoom 💬</h3>
+                            <p class="meta">Real-time chat app · Team of 6</p>
+                            <p>Live messaging, file sharing, reactions, typing indicators, read receipts and an AI
+                                chatbot.</p>
+                            <div class="tags">
+                                <span>React</span><span>Spring
+                                    Boot</span><span>MongoDB</span><span>WebSocket</span><span>Docker</span>
+                            </div>
+                            <a class="card-link" href="https://github.com/anshikagupta337-lgtm/EchoRoom" target="_blank"
+                                rel="noopener">View on GitHub →</a>
+                        </div>
+                    </article>
+
+                    <article class="work">
+                        <div class="preview live" aria-hidden="true">
+                            <div class="feed">
+                                <div class="log">10:01 login ok · user_42</div>
+                                <div class="log">10:03 login failed x5</div>
+                                <div class="log">10:04 new device login</div>
+                                <div class="log bad">10:06 bulk SELECT on users</div>
+                                <div class="log bad">10:07 export 12k rows ⚠</div>
+                            </div>
+                        </div>
+                        <div class="work-body">
+                            <h3>IncidentIQ 🛡️ <span class="badge">In progress</span></h3>
+                            <p class="meta">Security incident investigation tool</p>
+                            <p>Joins scattered logs into one incident timeline and explains what happened in plain
+                                language.</p>
+                            <div class="tags">
+                                <span>Cybersecurity</span><span>Log analysis</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-group">
+                <h3>Languages</h3>
+                <ul class="skills">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Web &amp; Frameworks</h3>
+                <ul class="skills">
+                    <li>React</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Tailwind CSS</li>
+                    <li>REST APIs</li>
+                    <li>Spring Boot</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Tools</h3>
+                <ul class="skills">
+                    <li>Git/GitHub</li>
+                    <li>Docker</li>
+                    <li>MongoDB</li>
+                    <li>WebSocket</li>
+                    <li>JWT</li>
+                    <li>LLM APIs</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Core subjects</h3>
+                <ul class="skills">
+                    <li>DSA</li>
+                    <li>OOP</li>
+                    <li>DBMS</li>
+                    <li>Operating Systems</li>
+                    <li>Computer Networks</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education &amp; Achievements</h2>
+
+            <div class="card">
+                <h3>B.Tech, Computer Science &amp; Engineering 🎓</h3>
+                <p class="meta">Pranveer Singh Institute of Technology (PSIT), Kanpur · Expected 2028</p>
+                <p>Coursework: Data Structures &amp; Algorithms, OOP, DBMS, Operating Systems, Computer Networks</p>
+            </div>
+
+            <div class="card">
+                <h3>Achievements 🏆</h3>
+                <ul>
+                    <li>Solved 155+ LeetCode problems in Java.</li>
+                    <li>Participating in HackShift, a hackathon at IIIT Delhi.</li>
+                    <li>Participated in the International Conference on Next Generation in Science and Engineering.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Certifications 📜</h3>
+                <div class="tags">
+                    <span>Python for Data Science</span>
+                    <span>Intro to Generative AI Studio</span>
+                    <span>Cyber Job Simulation</span>
+                    <span>Programming Fundamentals Using Python</span>
+                    <span>Programming in C</span>
+                    <span>HTML5</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's connect 💌</h2>
+            <p>Open to internships and collaborations. Say hi!</p>
+            <div class="contact-links">
+                <a href="mailto:anshikagupt1905@gmail.com">Email</a>
+                <a href="https://linkedin.com/in/anshika-gupta-94382935" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/anshikagupta337-lgtm" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://leetcode.com/u/c4GQLTDbWx" target="_blank" rel="noopener">LeetCode</a>
+            </div>
+        </section>
+        <footer>
+            <p>Built with 💜 by Anshika Gupta · © 2026</p>
+        </footer>
+
+        <script src="script.js"></script>
+        <script src="background.js"></script>
+        <script src="slider.js"></script>
+    </body>
+
+</html>
